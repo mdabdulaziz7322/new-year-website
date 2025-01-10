@@ -118,6 +118,7 @@ header {
 
 .pic {
     text-align: center;
+    margin-bottom: 120px;
 }
 
 /* styles for second section */
@@ -128,6 +129,15 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
+}
+
+.second-section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    
 }
 
 .section-section-title {
@@ -138,6 +148,8 @@ header {
     line-height: 88px;
     letter-spacing: 11%;
     text-align: left;
+    margin-left: 126px;
+    margin-bottom: 24px;
 }
 
 .second-section-description {
@@ -148,10 +160,23 @@ header {
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 126px;
+    margin-bottom: 48px;
 }
 
 .sc-btn {
     border-radius: 8px;
     background: rgb(255, 0, 0);
     color: white;
+    font-size: 20px;
+    padding: 16px 32px 16px 32px;
+    margin-left: 158px;
 }
+.second-section-content{
+    width: 60%;
+}
+.section-section-image{
+    margin: 67px 108px 67px 0px;
+    
+}
+
