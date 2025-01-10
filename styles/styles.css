@@ -27,6 +27,9 @@
     font-weight: 600;
 
 }
+.co-width{
+    width: 33.33%;
+}
 
 /* styles for header */
 
@@ -36,6 +39,7 @@ header {
     margin: 0 auto;
 
 }
+
 
 .head {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.156), rgba(0, 0, 0, 0.402) 50%, rgb(0, 0, 0)),
@@ -197,6 +201,7 @@ header {
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
     margin-top: 60px;
+    margin-bottom: 160px;
 }
 
 .third-section-container {
@@ -219,15 +224,98 @@ header {
     margin-top: 80px;
     margin-bottom: 200px;
 }
-.third-section-l1{
+
+.third-section-l1 {
     margin-top: 150px;
     margin-bottom: 10px;
 }
-.third-section-l2{
+
+.third-section-l2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.third-section-l3{
+
+.third-section-l3 {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* styles for 4th section */
+.circle-image{
+    width: 400px; /* Width of the circle */
+  height: 400px; /* Height of the circle (equal to width for a perfect circle) */
+  border-radius: 50%; /* Makes the shape a circle */
+  border: 15px solid rgb(255, 0, 0); /* Optional: Add a border around the circle */
+  background: url('../images/Ellipse\ 1.png') no-repeat center center; /* Apply the background image */
+  background-size: cover;
+  padding: 10px;
+}
+    
+
+.fourth-section-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-content-subtitle {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+   margin: 104px 200px 10px 5px;
+
+    
+}
+
+.left-content-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 22px;
+    margin: 10px 100px 5px 5px;
+
+}
+
+.left-content-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 70px 104px 5px;
+}
+
+
+.right-side-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+    margin:112px 150px 10px 118px;
+}
+
+.right-side-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0px 181px 118px;
 }
